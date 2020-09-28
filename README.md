@@ -1,4 +1,4 @@
-# Wiki
+
 Organization Wiki with setting up information for various Bioinformatics tasks
 
 
