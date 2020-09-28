@@ -1,0 +1,19 @@
+
+phred: "33"
+headcrop: 5
+end_mode: PE
+input_read1_fastq_file:
+  class: File
+  path: A549_FOXO3_OE-RNA_seq-dex-00h-rep1_S1_L001_R1_001.fastq.gz
+minlen: 36
+input_read2_fastq_file:
+  class: File
+  path: A549_FOXO3_OE-RNA_seq-dex-00h-rep1_S1_L001_R2_001.fastq.gz
+slidingwindow: 4:15
+illuminaclip: 2:30:10:2:keepBothReads 
+input_adapters_file:
+  class: File
+  path: /data/reddylab/software/trimmomatic/binary/Trimmomatic-0.32/adapters/TruSeq3-PE.fa
+trimmomatic_jar_path: /data/reddylab/software/trimmomatic/binary/Trimmomatic-0.32/trimmomatic-0.32.jar
+
+
