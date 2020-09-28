@@ -1,9 +1,11 @@
-#### trimming reads using Trimmomatic tool
+#### Trimming reads using Trimmomatic tool
 
-trimmomatic.sh file contains the command line script for using the trimmomatic tool. The inputs files used for this example are from the directory: /data/reddylab/Flowcells/GGR/rna_seq/Reddy_4557_171219A3. 
+trimmomatic.sh file contains the command line script for using the trimmomatic tool. The inputs files used for this example are from the directory: 
+/data/reddylab/Flowcells/GGR/rna_seq/Reddy_4557_171219A3. 
+
 The fastq files used ares: A549_FOXO3_OE-RNA_seq-dex-00h-rep1_S1_L001_R1_001.fastq.gz as the input forward strand and A549_FOXO3_OE-RNA_seq-dex-00h-rep1_S1_L001_R2_001.fastq.gz as the input reverse strand. 
 
-#### trimming reads using trimmomatic.cwl
+#### Trimming reads using trimmomatic.cwl
 
 The below given command is used to execute trimmomatic.cwl script. 
 cwltool trimmomatic.cwl [input-job-settings]
