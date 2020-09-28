@@ -12,4 +12,4 @@ The below given command is used to execute trimmomatic.cwl script.
 
 Input-job-settings can be given in seperate .yml file which makes the script look clean. **trim_input.yml** is such a sample .yml file with all the input parameters needed for the execution of the cwl pipeline. The fastq files used for this task is same as the that of the above one.
 
-More information and explanations can be found in the Wiki page. 
+More information and explanations can be found in the [Wiki page](https://github.com/DukeCAGT/bioinfo_tasks/wiki/Trimming-reads). 
