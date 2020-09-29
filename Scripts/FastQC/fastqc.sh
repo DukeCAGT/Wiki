@@ -1,0 +1,2 @@
+module load fastqc
+fastqc /data/reddylab/Revathy/practice/Reddy_4557_171219A3/A549_FOXO3_OE-RNA_seq-dex-00h-rep2_S10_L001_R1_001.fastq.gz /data/reddylab/Revathy/practice/Reddy_4557_171219A3/A549_FOXO3_OE-RNA_seq-dex-00h-rep2_S10_L001_R2_001.fastq.gz
